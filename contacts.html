@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dead Man Walking</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Lora:ital,wght@0,400..700;1,400..700&family=Metal+Mania&family=Nosifer&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <a href="development.html"><li>Development</li></a>
+            <a href="gameplay.html"><li>Gameplay</li></a>
+            <a href="index.html"><li>Home</li></a>
+            <a href="contacts.html"><li class="active-nav">Contacts</li></a>
+            <a href="college.html"><li>College Info</li></a>
+
+        </ul>
+    </nav>
+
+    <section class="form-page">
+        <h1 class="contact-text">Contact the developer</h1>
+
+        <form>
+            <label for="fullname" class="contact-text">Your Name</label><br>
+            <input type="text" name="fullname" required><br><br>
+
+            <label for="email" class="contact-text">Email</label><br>
+            <input type="email" name="email" required><br><br>
+
+            <label for="topic" class="contact-text">Topic</label><br>
+            <select name="topic">
+                <option value="Gameplay">Gameplay Page</option>
+                <option value="Development">Development Page</option>
+                <option value="College">College Page</option>
+                <option value="Other">Other Questions</option>
+            </select><br><br>
+
+            <label for="question-text" class="contact-text">Questions</label><br>
+            <textarea name="question-text" required rows="10"></textarea><br><br>
+
+            <button type="submit">Send Question</button>
+
+        </form>
+    </section>
+</body>
+
+<footer>
+    <div class="logo-image">
+    <img src="img/DMW_Logo.png" alt="Dead Man Walking Website Logo">
+    </div>
+</footer>
+
+</html>

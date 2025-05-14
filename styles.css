@@ -1,0 +1,315 @@
+/*
+Title = font-family: "Nosifer", serif;
+Headers = font-family: "Metal Mania", serif; 
+Paragraphs = font-family: "Arbutus Slab", serif;
+
+College;
+font-family: "Lora", serif;
+font-family: "Playfair Display", serif;
+*/
+
+h2 {
+    font-family: "Metal Mania", serif;
+    font-size: 2rem;
+}
+
+p {
+    font-family: "Arbutus Slab", serif;
+    font-size: 1rem;
+}
+
+nav {
+    font-family: "Special Elite", serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+}
+
+nav ul {
+    background-color: #262a2b;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    color: #b1b49e;
+    padding: 15px 20px;
+    transition: background .5s step-start;
+}
+
+nav ul li:hover {
+    color: #daddc5;
+}
+
+.active-nav {
+    color: #eef0e7;
+}
+
+.main-title {
+    font-family: "Nosifer", serif;
+    text-align: center;
+    background-image: url(img/splatter.png);
+    color: #707070;
+    font-size: 3.5rem;
+    line-height: normal;
+}
+
+span {
+    color: rgb(133, 24, 24)
+}
+
+/*
+Main CSS
+*/
+
+header {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.685), rgba(95, 95, 95, 0.281)), url(img/DMW_Banner.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 5px solid #343635;
+    border-right: 5px solid #343635;
+}
+
+body {
+    background-color: #667157;
+    margin: auto;
+    line-height: 1.75rem;
+    color: #1f1f1f;
+}
+
+section {
+    background-color: #869672bb;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-content: center;
+    width: 90%;
+    padding: 100px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    box-sizing: border-box;
+}
+
+.welcome {
+    margin-top: 7.5rem;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.welcome img {
+    height: 14.5rem;
+    padding-top: 25px;
+}
+
+.plot{
+    margin-top: 7.5rem;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.genre {
+    margin-top: 7.5rem;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.genre img {
+    height: 14.5rem;
+    padding-top: 25px;
+}
+
+.play-this {
+    margin-top: 7.5rem;
+}
+
+/*
+Development CSS
+*/
+
+.characters{
+    display: flex;
+    padding-top: 7rem;
+}
+
+.characters img{
+    height: 250px;
+}
+
+.section-enhanced-margin {
+    margin-top: 5rem ;
+}
+
+.Zimage-1 {
+    padding-right: 20px;
+    padding-left: 3.5rem;
+    padding-top: 2rem;
+}
+
+.Zimage-2 {
+    padding-top: 2rem;
+}
+
+.environment {
+    display: flex;
+    padding-top: 7rem;
+}
+
+.environment img {
+    padding-right: 3.5rem;
+}
+
+.level-design {
+    display: flex;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.level-design img {
+    padding-left: 3.5rem;
+    height: 17.5rem;
+}
+
+.section-enhanced-margin h1{
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    font-weight: 1750;
+}
+
+.section-enhanced-margin h2{
+    font-family: "Playfair Display", serif;
+    font-size: 1.75rem;
+    padding-top: 25px;
+}
+
+.section-enhanced-margin p{
+    font-family: "Lora", serif;
+}
+
+
+/*
+Footer CSS
+*/
+
+footer {
+    background-color: #262a2b;
+    padding: 2rem;
+}
+
+.logo-image {
+    text-align: center;
+}
+
+.logo-image img {
+    width: 120px;
+    border: 2px solid #869672bb;
+    border-radius: 100%;
+}
+
+/*
+Contact CSS
+*/
+
+.form-page {
+    margin-top: 150px;
+    margin-bottom: 115px;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    background-color: #5b6852;
+    border-bottom: 1px solid  #363836;
+    transition: all .25s ease-in-out;
+    font-family: "Playfair Display", serif;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+select:focus,
+textarea:focus {
+    background-color: #6e7e63;
+    border-bottom: 2px solid #272927;
+}
+
+button {
+    background-color: #d1e0c1;
+    color: #1f1f1f;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color .2s ease-in-out;
+}
+
+button:hover {
+    background-color: #b0bea2;
+}
+
+.contact-text {
+    font-family: "Playfair Display", serif;
+    font-size: 1.1rem;
+}
+
+/*
+College Info
+*/
+
+.College-info{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 3.5rem;
+}
+
+.College-info img {
+    height: 12rem;
+    padding-left: 10px;
+}
+
+/*
+Gameplay Page
+*/
+
+.youtube-video {
+    display: flex;
+    align-items: center;
+    padding-top: 2.5rem;
+}
+
+.video {
+    padding-left: 2rem;
+}
+
+.death-screen {
+    display: flex;
+    align-items: center;
+    padding-top: 5rem;
+    gap: 2rem;
+    padding-bottom: 5rem;
+}
+
+.death-screen img {
+    height: 20rem;
+}
